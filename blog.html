@@ -1,0 +1,213 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title> Tanyi´s Blog</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="C:\Users\user\Desktop\Exam-one\css\default.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="C:\Users\user\Desktop\Exam-one\css\blog.css" />
+    <link rel="author" href="human.txt"/>
+     <meta property="og:type" content="website" />
+    <!-- Open Graph -->
+    <meta property="og:title" content="Web Programming" />
+    <meta property="og:url" content="https://1dv525.github.io/tt222fi-examination-1/pages/blog.html" />
+    
+    <meta property="og:image" content="https://1dv525.github.io/tt222fi-examination-1/images/me.jpeg"/>
+   
+    
+</head>
+
+<body>
+
+        <header>
+                <h2>WELLCOME TO MY BLOG</h2>
+             </header>
+          
+   <div class="container">
+        <div id="menu">  
+
+             <nav>
+            
+              <a class="pages" href=C:\Users\user\Desktop\Exam-one\index.html>Home</a>
+                <a class="pages" href=blog.html>Blog</a>
+                <a class="pages" href=about.html>About</a>
+                <a class="pages" href=contact.html>Contact</a>          
+              </nav>
+         </div>
+     </div>
+  
+
+
+    </section>
+    <article>
+        <header>
+            <h1>ROBOTS.TXT</h1>
+            <h3>What is robots.txt?</h3>
+        </header>
+
+        <p>
+            Robots.txt is a text file webmasters use to instruct web robots or search engines robots 
+            how to crawl or index pages on their websites. 
+           The robots.txt file is part of  the robots exclusion protocol (REP) that regulate how robots crawl the web pages,
+           access,index content, and serve the content up to users. The robots exclusion protocol also includes 
+           directives like meta robots, as well as  page-, subdirectory-, or site-wide instructions for
+            how search engines should treat links.
+        </p>
+
+        <p>
+            However, robots.txt files also specify which user-agent can or cannot crawl parts of a website. 
+            Two main instructions are commmonly used that is, "allowed" and "disallowed" to specified the behavior 
+            of a certain or all user-agents.
+        </p>
+        <p>
+            <h3>BASIC FORMAT:</h3>
+            User-agent: [user-agent name] <br>
+            Disallow: [URL string not to be crawled]
+        </p>
+        <p>
+            The two lines above are considered a complete robots.txt file even though
+            one robots.txt file can contain multiple lines of user agents and directives such as disallows, allows,
+            crawl-delays, etc.
+            Within a robots.txt file, each set of user-agent directives appear as a discrete
+            set, separated by a line break:
+            <br>
+            <p><img src="C:\Users\user\Desktop\Exam-one\images\rb.png"> </p>
+            <br>
+            In a robots.txt file with multiple user-agent directives,
+            each disallow or allow rule only applies to the useragent(s) specified in that particular line
+            break-separated set. If the file contains a rule that applies to more than one user-agent, a crawler
+            will only pay attention to (and follow the directives in)
+            the most specific group of instructions.
+        </p>
+    </article>
+    <section>
+        <section>
+
+            <article>
+                <h2> Human.txt</h2>
+                <img src="C:\Users\user\Desktop\Exam-one\images\me.jpg" width="400" height="400">
+
+                <aside>
+
+                    <h3>What is Human.txt</h3>
+                    <p>
+                        It is interesting to know the people behind a website. Thus human.txt
+                        file  is a file that contains information about the different people
+                        who have contributed to the building of a website. </p>
+                    <h3>Why a TXT?</h3>
+                    <p>Because it's something simple and fast to create. That is,it's not intrusive
+                        with the code. More often than not, the owners of the site don't like the authors signing
+                        it; they claim that doing so may make the site less efficient. By adding a txt file, you can
+                        prove your authorship (not your property) in an external,
+                        fast, easy and accessible way.</p>
+                </aside>
+
+            </article>
+        </section>
+        <section>
+            <article>
+                <br>
+                <h2>Open Graph</h2>
+
+                <p>Open Graph is a technology first introduced by Facebook in 2010 that allows
+                    integration between Facebook and its user data and a website. By integrating Open Graph meta tags
+                    into a page content,  one can identify which elements of that
+                    page want to be shown when someone share's that page.</p>
+                <p> For example, you could use the og:image tag to specify what image you want Facebook to use when
+                    your page is shared. By specifying Open Graph information, such that 
+                    Facebook doesn't have to guess what information to use when your page is shared.</p>
+                <p><img src="C:\Users\user\Desktop\Exam-one\images\fb.png" width="200" height="100"> </p>
+                <aside>
+                    <h3>Example of Open Graph meta tags</h3>
+                    <p>
+                      Below is an example of how Open Graph meta tags appear on web pages and how it could be used.
+                      Open Graph meta tags are similar to HTML meta tags except for the fact that Open Graph has the property 
+                      attribute which is absent in HTML tags 
+                     </p>
+                    <p><img src="C:\Users\user\Desktop\Exam-one\images\meta.png" width="700"> </p>
+                </aside>
+                <p>
+                    <h3>How to add Open Graph meta tags</h3>
+
+                   Just Like other meta tags, the Open Graph tags must be place in the head of an HTML page such that if any modification 
+                    is done on the HTML, these tags can by added using any HTML editor or using a CMS like
+                    WordPress to manage these tags.
+                </p>
+                <h3>Overview of Open Graph meta tags</h3>
+                <p>Below is a list of the top Open Graph meta tag properties Listed in order of importance, 
+
+                 
+                        .</p>
+                   <br>
+                    <p> <b> og:title - </b> The title of the page.
+                    <br><br>
+                    <b> -og:image - </b> The image you want to use when the page is shared.
+                    og:image property is helpful if your page has several pictures and you want a particular image to
+                    be used.
+                    <br>
+                    <br>
+                    <b> -Note:</b> Facebook does not use any image smaller than a width of 300px and height of 200px.
+                    <br>
+                    <br>
+                    <b> -og:description -</b> The description of the page.
+                    <br>
+                    <br>
+                    <b> -og:type -</b> The type of the object or page you are describing. Some of the types that could
+                    be used include article, music.album, video.movie and website.
+                    <br>
+                    <br>
+                    <b> -og:url - </b> The canonical URL of the object or page.
+                    <br>
+                    <br>
+                    <b> - og:locale - </b> The location of the information. /p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Why is it important to separated CSS-Layout from HTML-Content? </h2>
+
+                <p> For Efficiency of code: The larger your files are, the longer they will take to download, and the more
+                    they will cost some people to view Y
+                    therefore don’t want to waste your bandwidth on large pages cluttered up with styling and layout
+                    information in every HTML file. A much better alternative is to make the HTML files stripped down
+                    and neat, and include the styling and layout information just once in a separate CSS file. 
+                   </p>
+                
+                   <p>For easy  maintenance: having the HTML separated from the CSS file makes it easy to update information 
+                  separated. instead of srolling up and down a very large file looking for an error to fixed which can be easily 
+                   fixed if the two pages are separated.
+                     .</p>
+
+                 <p> Accessibility: Web users who are visually impaired can use a piece of software known as a “screen
+                    reader” to access the information through sound rather than sight — it literally reads the page out
+                    to them, and it can do a much better job of helping people to find their way around your web page
+                    if it has a proper semantic structure, such as headings and paragraphs. 
+                 .</p>
+
+          
+                <p>Web crawlers or search engines:  A search engine uses  “crawler”, which is a specialized piece of 
+                    software, to read through web pages. If the crawler
+                    has trouble finding the content of your pages, or mis-interprets what’s important because you
+                    haven’t defined headings as headings and so on, then your rankings in relevant search results will
+                    probably suffer.</p>
+              
+
+            </article>
+        </section>
+
+        <br>
+        <br>
+        <br>
+        <section id="fota">
+            <footer>
+                <p>© 2018 Gandalf</p>
+                <ul>
+                    <li>Terms</li>
+                    <li>Blog</li>
+                    <li>About</li>
+                </ul>
+            </footer>
+        </section>
+</body>
+
+</html>
